@@ -1,0 +1,188 @@
+
+.nav-top.cart {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+
+.nnav-top.cart a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.bi-cart3 {
+    margin-right: 10px;
+}
+
+.bi-arrow-left-circle-fill {
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.bi-three-dots {
+    color: black;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#listaCarrinho {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+    padding-bottom: 280px;
+}
+
+.item-carrinho {
+    display: flex;
+    flex-direction: column wrap;
+    align-items: center;
+    width: 90%;
+    height: 120px;
+    padding: 10px 0px;
+    margin: auto;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.area-img {
+    flex: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(223, 223, 223);
+    border-radius: 20px;
+}
+
+.area-img img {
+    max-width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.area-details {
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.sup {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-prod {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+    max-width: 220px;
+    white-space: wrap;
+}
+
+.delete-item {
+    font-size: 18px;
+    color: grey;
+    margin-right: 10px;
+}
+
+.middle span {
+    color: gray;
+    margin-left: 15px;
+}
+
+.preco-quantidade {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.preco-quantidade span {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.count {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 30px;
+    color: red;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(153, 0, 0, 0.514);
+    border: 3px solid red;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.qtd-item {
+    height: 30px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 30px;
+    color: green;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(0, 202, 10, 0.562);
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.flex-100 {
+    flex: 1;
+    text-align: center;
+}
+
+.w-80 {
+    width: 80%;
+    padding: 8px 0px;
+}
+
+.valor-sub {
+    font-weight: 500;
+    color: green;
+}
+
+#totais {
+    flex-direction: column;
+}
+
+.imagem-sem-produto {
+    text-align: center;
+}

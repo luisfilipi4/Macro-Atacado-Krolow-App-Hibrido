@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Detalhes</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/detalhes.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+    <div id="app">
+        <div class="view view-main">
+            <div data-name="detalhes" class="page color-theme-blue">
+                <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                    <div class="toolbar-inner display-flex aling-tems-center justify-content-center">
+                        <div class="flex-40">
+                            <span id="preçopromo-detalhe" class="riscado color-gray">R$ 1400,00</span>
+                            <h3 id="preço-detalhe" class="princing no-padding no-margin">R$ 1200,00</h3>
+                        </div>
+                        <div class="flex-60">
+                            <button class="add-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div class="prod-detail">
+                        <div class="buttons-top">
+                            <a href="/index/"><i id="icone-sair" class="bi bi-arrow-left-circle-fill"></i></a>
+                            <a href="#"><i class="bi bi-star"></i></a>
+                        </div>
+                        <img id="imagem-detalhe" src="img/default.png" alt="">
+                    </div>
+                    <div class="prod-content">
+                        <div class="block">
+                            <div class="line padding-top">
+                                <h1 id="nome-detalhe">Nome do Produto</h1>
+                            </div>
+                            <div class="display-flex aling-tems-center justify-content-center">
+                                <p id="descrição-detalhe">Sobre o produto. amet consectetur adipisicing elit. Ducimus odit nisi aperiam, dolore quo id a commodi beatae quibusdam atque, sequi, voluptates temporibus iure recusandae repudiandae nam quidem dolorem praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <script type="text/javascript" src="js/routes.js"></script>
+</html>

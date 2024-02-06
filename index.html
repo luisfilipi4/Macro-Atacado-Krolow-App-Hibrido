@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Macro Atacado Krolow LTDA</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/detalhes.css">
+    <link rel="stylesheet" href="./css/carrinho.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+        <body>
+            <div>
+            </div>
+            <div id="preload-container">
+                <img id="imagem-preload" src="img/logo.png" alt="">
+                <div id="preload-spinner"></div>
+            </div>   
+            <div id="app">   
+                <div class="view view-main">
+                    <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                        <div class="toolbar-inner display-flex">
+                            <a href="/index/" class="tab-link link active">
+                                <i class="bi bi-house-fill"></i>
+                                <span>Home</span>
+                            </a>
+                            <a href="/localização/" class="tab-link link">
+                                <i class="bi bi-geo-alt"></i>
+                                <span>Localização</span>
+                            </a>
+                            <a href="/link3/" class="tab-link link">
+                                <i class="mdi mdi-account"></i>
+                                <span>Favoritos</span>
+                            </a>
+                            <a href="/link4/" class="tab-link link">
+                                <i class="mdi mdi-account"></i>
+                                <span>Usuário</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-name="index" class="page color-theme-blue">
+                        <div class="page-content">
+                            <header id="header">
+                                <div class="container">
+                                    <div class="flex">
+                                        <img class="tittle-logo" src="./img/logo.png" width="140" height="45" alt="LOGO">
+                                            <a href="/carrinho/" class="btn-cart" data-count="0"><img src="./icon-gif/cart-cheio.gif" width="30" height="30" alt=""></a>
+                                    </div>
+                                </div>
+                            </header>
+                            <header class="header-horas">
+                                <div id="data-hora-curta"></div>
+                                <h3 id="abre-em-breve">Abre em breve</h3>
+                                <h3 id="aberto">Aberto Agora</h3>
+                                <h3 id="fecha-em-breve">Fecha em breve</h3>
+                                <h3 id="fechado">Fechado Agora</h3>
+                            </header>
+                            <header class="header-clima">
+                                <form id="clima-form">
+                                    <div class="div-clima efeito-logo">
+                                        <input id="clima-input" type="text" placeholder="Ver o clima da sua cidade">
+                                        <button id="clima-button" type="submit"><i id="clima-search-icon" class="bi bi-search"></i></button>
+                                    </div>
+                                </form>
+                                <div id="clima-conteudo">
+                                    <div class="clima-content" style="display: none;"><img id="clima-img" src="" alt="Clima"></div>
+                                    <section class="section-clima">
+                                        <h2 id="clima-place"></h2>
+                                        <br>
+                                        <span id="clima-degrees"></span>
+                                        <br>
+                                        <span id="clima-wind"></span>
+                                    </section>
+                                </div>
+                            </header>      
+                            <div class="block margin-top">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide"><img class="img-fluid" id="img-cartaz" src="img/cartaz.jpg" alt=""></div>
+                                      <div class="swiper-slide"><img class="img-fluid" src="img/propaganda2.png" alt=""></div>
+                                      <div class="swiper-slide"><img class="img-fluid" src="img/propaganda3.png" alt=""></div>
+                                      <div class="swiper-slide">
+                                        <img class="img-fluid" src="img/propaganda4.png" alt=""></div>
+                                    </div>
+                                    <nav>
+                                    <div class="swiper-pagination"></div>
+                                  </div>
+                                  <div class="div-video-intro">
+                                    <video controls loop class="video-intro">
+                                        <source src="img/krolow.mp4" type="video/mp4">
+                                    </video>
+                                  </div>
+                                  <header class="header-promocoes">
+                                    <h2 class="h2-promo">Toda semana as melhores ofertas pra você!
+                                    </h2>
+                                  </header>
+                                  <div id="produtos" class="margin-top row display-flex aling-tems-center justify-content-center"></div>
+                                  <footer>
+                                    <div class="div-contato-phone">
+                                        <img src="icon-gif/icons8-phone.gif" width="50" height="50" alt="">
+                                        <h3 style="color: white;">Fale Conosco</h3>
+                                        <p style="color: white;">Pelotas: <i class="bi bi-copy"></i> <span class="span-copiar number"> (53)3223-1869</span></p>
+                                        <p style="color: white;">São Lourenço do Sul: <i class="bi bi-copy"></i> <span class="span-copiar number" > (53)3251-3190</span></p>
+                                        <p style="color: white;">Camaquã: <i class="bi bi-copy"></i> <span class="span-copiar number" > (51)3671-1461</span></p>
+                                    </div>
+                                    <div class="div-contato-email">
+                                        <img src="icon-gif/gmail.gif" alt="">
+                                        <h3 style="color: white;">E-mail Atendimento</h3>
+                                        <p style="color: white;"> <i class="bi bi-copy"></i> <span class="span-copiar copy">pelotas@macroatacadokrolow.com.br</span></p>
+                                        <p style="color: white;"> <i class="bi bi-copy"></i> <span class="span-copiar copy">sls@macroatacadokrolow.com.br</span></p>
+                                        <p style="color: white;"> <i class="bi bi-copy"></i> <span class="span-copiar copy">camaqua@macroatacadokrlow.com.br</span></p>
+                                        <h3 style="color: white;">Departamento Jurídico</h3>
+                                        <p style="color: white;">juridico <span class="span-copiar copy">@macroatacadokrolow.com.br</span></p>
+                                        <h3 style="color: white;">Departamento Recursos Humanos</h3>
+                                        <p style="color: white;"> <i class="bi bi-copy"></i> <span class="span-copiar copy">rh@macroatacadokrolow.com.br</span></p>
+                                    </div>
+                                  </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <script type="text/javascript" src="js/routes.js"></script>
+</html>

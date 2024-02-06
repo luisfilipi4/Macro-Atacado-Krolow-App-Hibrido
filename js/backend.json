@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/produto1.png",
+        "nome": "Abacate",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+        },
+    {
+        "id": 2,
+        "imagem": "img/produto2.png",
+        "nome": "Banana",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+    },
+    {
+        "id": 3,
+        "imagem": "img/produto3.png",
+        "nome": "Cenoura",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+        },
+    {
+        "id": 4,
+        "imagem": "img/produto4.png",
+        "nome": "Nozes",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max..",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+        },
+    {
+        "id": 5,
+        "imagem": "img/airpod.png",
+        "nome": "AirPod",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+    },
+    {
+        "id": 6,
+        "imagem": "img/iphone.png",
+        "nome": "Iphone",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+    },
+    {
+        "id": 7,
+        "imagem": "img/xbox.png",
+        "nome": "Xbox",
+        "principal_caracteristica": "120g",
+        "estrela": "icon-gif/icon-star.png",
+        "gif_estrela": "icon-gif/icon-star.gif",
+        "descricao": "Explore o futuro da tecnologia com o iPhone 15 Pro Max.",
+        "preco_promocional": 239.99,
+        "preco": 200.00
+    }
+]

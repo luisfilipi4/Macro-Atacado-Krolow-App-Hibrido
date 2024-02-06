@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Carrinho</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <!-- <link rel="stylesheet" href="./css/detalhes.css"> -->
+    <link rel="stylesheet" href="./css/carrinho.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+    <div id="app">
+        <div class="view view-main">
+            <div data-name="carrinho" class="page color-theme-blue">
+                <div class="nav-top cart">
+                    <a href="/index/"><i class="bi bi-arrow-left-circle-fill"></i></a>
+                    <strong><i class="bi bi-cart3"></i>Carrinho</strong>
+                    <a href="#" class="link popover-open" data-popover=".popover-menu"><i class="bi bi-three-dots"></i></a>
+                </div>
+                <div class="popover popover-menu">
+                    <div class="popover-angle"></div>
+                    <div class="popover-inner">
+                      <div class="list">
+                        <ul>
+                          <li>
+                            <a id="esvaziar" href="#" class="list-button popover-close">
+                                <img src="icon-gif/icon-broom.png" width="20" height="20" alt="">
+                                Esvaziar Carrinho
+                            </a>
+                        </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>                
+                <div  id="toolbarTotais" style="margin-bottom: 80px;" class="toolbar toolbar-bottom">
+                    <div id="totais" class="toolbar-inner display-flex aling-tems-center justify-content-center">
+                        <div class="bd-bottom margin-top w-80 display-flex aling-tems-center justify-content-space-between">
+                            <span>Subtotal</span>
+                            <span id="subtotal" class="valor-sub">R$ 800,50</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="menuPrincipal" id="toolbarCheckout" class="toolbar toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <div class="flex-100">
+                            <button class="add-cart">Apenas para ver o total dos produtos escolidos</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div id="listaCarrinho">
+                        <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/default.png">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Xbox Series x
+                                    </span>
+                                    <a class="delete-item" href="#">
+                                        <i class="bi bi-x-circle-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="middle">
+                                    <span>180g</span>
+                                </div>
+                                <div class="preco-quantidade">
+                                    <span class="princing">R$ 200.00</span>
+                                    <div class="count">
+                                        <a href="#" class="minus">-</a>
+                                        <input readonly class="qtd-item" value="1">
+                                        <a href="#" class="plus">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/default.png">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">Xbox Series x</span>
+                                    <a class="delete-item" href="#">
+                                        <i class="bi bi-x-circle-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="middle">
+                                    <span>180g</span>
+                                </div>
+                                <div class="preco-quantidade">
+                                    <span class="princing">R$ 200.00</span>
+                                    <div class="count">
+                                        <a class="minus" href="#">-</a>
+                                        <input readonly class="qtd-item" value="1">
+                                        <a class="plus" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <script type="text/javascript" src="js/routes.js"></script>
+</html>
